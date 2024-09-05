@@ -98,10 +98,10 @@ P.S Did not have enough time to config swagger properly using schemas
 
 ## Alternative Approach (Not Pursued):
 An alternative approach considered was using Celery(for background processing) and Redis/RabbitMQ(shared queue) for distributed task management:
-Celery: A more scalable task queue that works well in distributed environments.
-Redis: A distributed in-memory data structure store that would have served as the broker for Celery.
+- Celery: A more scalable task queue that works well in distributed environments.
+- Redis: A distributed in-memory data structure store that would have served as the broker for Celery.
 
-Even though we did not include this approach for the sake of simplicity, however when scaling across multiple machines is a requirement we would have to use celery and Redis/RabbitMQ for a more suitable long term and practical solution.
+Even though we did not include this approach for the sake of simplicity, scaling across multiple machines requires us to use celery and Redis/RabbitMQ for a more suitable long-term and practical solution.
 
 
 ## Future Improvements:
