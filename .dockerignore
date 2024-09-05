@@ -1,0 +1,6 @@
+.venv/
+test_/
+__pycache__/
+
+README*
+*.pdf
