@@ -50,6 +50,7 @@ The Docker image was optimized for size and performance by:
   Sych-SDE/
   ├── app.py              # Main Flask app and routing
   ├── predict.py          # Blueprint for predict endpoints
+  ├── schemas.py          # Schemas for the endpoints
   ├── model.py            # Mock ML predict function
   ├── Dockerfile          # Dockerfile for containerization
   ├── requirements.txt    # Dependencies
